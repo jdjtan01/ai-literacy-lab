@@ -1,0 +1,12 @@
+[
+{"q":"How many unused vacation days can I carry over?","expect":"5"},
+{"q":"After how many consecutive sick days do I need a doctor's note?","expect":"3"},
+{"q":"What is the yearly desk equipment expense limit?","expect":"400"},
+{"q":"What are the core working hours?","expect":"10:00"},
+{"q":"What is the maximum hotel rate per night?","expect":"180"},
+{"q":"Is there a monthly gym stipend?","expect":null},
+{"q":"How many bereavement leave days do I get?","expect":null},
+{"q":"Does the company match 401(k) contributions?","expect":null},
+{"q":"Can I bring my dog to the office?","expect":null},
+{"q":"How much is the relocation allowance?","expect":null}
+]

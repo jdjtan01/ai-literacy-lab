@@ -1,0 +1,9 @@
+Northwind Studio: Leave and Equipment Policy (fictional, for practice)
+1. Vacation: Full-time employees accrue 15 days per year. Up to 5 unused days carry over to the next year.
+2. Sick leave: Employees receive 8 sick days per year. A doctor's note is required after 3 consecutive days.
+3. Equipment: Employees may expense up to $400 per year for desk equipment. Receipts must be submitted within 30 days.
+4. Laptops: Company laptops are replaced every 3 years. Lost devices must be reported to IT within 24 hours.
+5. Remote work: Up to 3 days per week may be remote with manager approval. Core hours are 10:00 to 15:00 local time.
+6. Parental leave: Primary caregivers receive 12 weeks paid leave. Secondary caregivers receive 4 weeks.
+7. Training: Each employee has an $800 annual learning budget. Courses over $300 need manager approval.
+8. Travel: Economy class is required for flights under 6 hours. Hotels are reimbursed up to $180 per night.

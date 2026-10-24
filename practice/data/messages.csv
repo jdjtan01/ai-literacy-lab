@@ -1,0 +1,31 @@
+message,label,edge
+"I was charged twice for my March subscription.",Billing,0
+"Can I get a refund for the annual plan?",Billing,0
+"My invoice shows the wrong company name.",Billing,0
+"Why did my card get declined when I upgraded?",Billing,0
+"Please send me a receipt for last month.",Billing,0
+"The app crashes whenever I open settings.",Technical,0
+"I can't log in after resetting my password.",Technical,0
+"Export to CSV gives me an empty file.",Technical,0
+"The page loads forever on my phone.",Technical,0
+"Notifications stopped working after the update.",Technical,0
+"Love the new dashboard, great job!",Feedback,0
+"It would be great to have a dark mode.",Feedback,0
+"The onboarding was confusing for my team.",Feedback,0
+"Please add Excel export in a future version.",Feedback,0
+"Support was really helpful yesterday, thank you.",Feedback,0
+"Where is your office located?",Other,0
+"Do you have a partner program for agencies?",Other,0
+"I'd like to speak to someone about a press interview.",Other,0
+"Are you hiring engineers?",Other,0
+"What are your business hours?",Other,0
+"I was charged after I cancelled AND the app won't let me log in.",Billing,1
+"The invoice PDF is broken, it opens as a blank page.",Technical,1
+"Honestly the pricing feels too high for what you get.",Feedback,1
+"Thanks! Also, can you explain your data privacy policy?",Other,1
+"Great app but it keeps logging me out. Please fix.",Technical,1
+"My coupon code didn't apply at checkout.",Billing,1
+"Would you consider a student discount?",Feedback,1
+"Hello?",Other,1
+"Your update ruined the layout and I want my money back.",Billing,1
+"Is the crash on startup a known bug? Also love the icons.",Technical,1
