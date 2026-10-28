@@ -17,6 +17,7 @@
 | data/hallucination_questions.md | 6 | 15-question hallucination hunt (no code) |
 | scripts/04_grounded_qa.py + data/policy.txt, policy_questions.json | 6 | Grounded Q&A: 5 answerable, 5 unanswerable |
 | scripts/03_extract.py + data/invoices.txt, invoices_key.json | 8 | Extraction on 10 invoices, validation, retry, accuracy |
+| scripts/06_capture_outputs.py + data/sample_prompts.json | 3 | Capture real model outputs for your own case studies |
 | scripts/05_mini_rag.py | 10 | Mini RAG with word-overlap retrieval; swap in embeddings |
 
 ## Notes

@@ -1,0 +1,6 @@
+[
+{"id":"weak_email","prompt":"Write an email about the office move."},
+{"id":"tcfo_email","prompt":"Task: Write an email announcing our office move.\nContext: Team of 25. Moving Friday 14 Nov to 88 Example Avenue, Floor 6. The old office closes Thursday 13 Nov at 6 pm. Staff must clear desks by Thursday noon. Parking passes are available from Ana in HR.\nFormat: Subject line plus under 150 words, ending with a 3-item checklist.\nConstraints: Friendly and clear. No exclamation marks. Do not promise any change to remote-work rules."},
+{"id":"classify","prompt":"Classify the customer message as Billing, Technical, Feedback or Other. Reply with the label only.\n\nMessage: \"I was charged twice and now I cannot log in.\" ->"},
+{"id":"grounded_notfound","prompt":"Answer using only the text between <source> tags. If the answer is not in the text, reply exactly: Not found in the provided text.\n<source>Employees receive 8 sick days per year. A doctor's note is required after 3 consecutive days.</source>\nQuestion: Is there a gym stipend?"}
+]
