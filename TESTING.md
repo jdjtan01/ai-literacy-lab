@@ -39,11 +39,9 @@ Do this once after you deploy, and again after any big edit. Tick each box. Writ
 - [ ] Quiz options can be chosen with the keyboard.
 - [ ] Text contrast is comfortable on your screen in a bright room.
 
-## 6. Practice scripts (needs an API key you control)
-- [ ] Follow practice/README.md to set up. The key is an environment variable, never a file.
-- [ ] `01_token_usage.py` runs. If it errors on the model name or temperature, edit `MODEL` in `common.py`, or remove the temperature setting.
-- [ ] `02_classify.py`, `03_extract.py` and `04_grounded_qa.py` run and print a score.
-- [ ] `05_mini_rag.py` runs. It should find the right policy line for all 5 answerable questions in its retrieval step.
+## 6. Practice scripts
+- [ ] Offline mode (no key): from `practice/scripts`, run `python 01_token_usage.py`, `02_classify.py`, `03_extract.py`, `04_grounded_qa.py` and `05_mini_rag.py`. Each prints an OFFLINE MODE notice and a score. Expect roughly 87% on the classifier, 88% on extraction and 9 of 10 on grounded Q&A. `06_capture_outputs.py` should refuse to run offline.
+- [ ] Real model (optional): follow practice/README.md, set the key as an environment variable, never in a file. If `01_token_usage.py` errors on the model name or temperature, edit `MODEL` in `common.py` or remove the temperature setting.
 - [ ] You checked your provider's current pricing before running anything in a loop.
 
 ## 7. Content review (give this to someone who knows the subject)

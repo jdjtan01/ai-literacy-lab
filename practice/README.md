@@ -1,13 +1,20 @@
 # AI Literacy Lab: practice files
 
-## Setup (Technical track)
-1. Python 3.10+, then `pip install anthropic`
+## Run it with no key (offline mode, free)
+1. Install Python 3.10 or newer. Nothing else is needed.
+2. In a terminal, go to the `scripts` folder and run, for example: `python 02_classify.py`
+3. With no API key set, the scripts use `offline.py`, a small rule-based stand-in. It is NOT AI. It follows keyword and pattern rules, so it will make mistakes (for example, around 87% on the classifier and 88% on invoice extraction), and it deliberately adds chatter to some replies so you can watch the validation and retry step work.
+4. Use offline mode to learn how the scripts, scoring and validation work. Do not use its scores to judge how well a real model performs.
+5. `06_capture_outputs.py` refuses to run offline, because it exists to save real model output.
+
+## Using a real model (optional, costs a little)
+1. `pip install anthropic`
 2. Create an API key in your provider console. Never commit it.
    - macOS/Linux: `export ANTHROPIC_API_KEY="your-key"`
    - Windows PowerShell: `$env:ANTHROPIC_API_KEY="your-key"`
 3. Add a `.gitignore` containing `.env` before you push anything to GitHub.
-4. Run from the `scripts` folder: `python 01_token_usage.py`
-5. Model name is set in `common.py` (override with `MODEL=...`). Check your provider's docs for current model names. API calls cost money, so start with the small files here.
+4. Run the same scripts. Set `OFFLINE=1` to force offline mode even when a key is present.
+5. The model name is set in `common.py` (override with `MODEL=...`). Check your provider's docs for current names. API calls cost money, so start with the small files here.
 
 ## Files
 | File | Week | Exercise |
@@ -17,7 +24,8 @@
 | data/hallucination_questions.md | 6 | 15-question hallucination hunt (no code) |
 | scripts/04_grounded_qa.py + data/policy.txt, policy_questions.json | 6 | Grounded Q&A: 5 answerable, 5 unanswerable |
 | scripts/03_extract.py + data/invoices.txt, invoices_key.json | 8 | Extraction on 10 invoices, validation, retry, accuracy |
-| scripts/06_capture_outputs.py + data/sample_prompts.json | 3 | Capture real model outputs for your own case studies |
+| scripts/06_capture_outputs.py + data/sample_prompts.json | 3 | Capture real model outputs for your own case studies (needs a key) |
+| scripts/offline.py | all | The stand-in used when there is no key |
 | scripts/05_mini_rag.py | 10 | Mini RAG with word-overlap retrieval; swap in embeddings |
 
 ## Notes

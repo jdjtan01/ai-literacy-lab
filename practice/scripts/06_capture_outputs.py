@@ -1,7 +1,9 @@
 """Capture REAL outputs for your own examples. Writes a dated markdown file you can paste into your notes.
 Run: python 06_capture_outputs.py        (set RUNS below for repeats)"""
 import json, os, datetime
-from common import ask, MODEL
+from common import ask, MODEL, OFFLINE
+if OFFLINE:
+    raise SystemExit("This script needs a real model and an API key. Offline mode would capture the toy stand-in, which is not real output.")
 RUNS = 2
 prompts = json.load(open("../data/sample_prompts.json", encoding="utf-8"))
 os.makedirs("../outputs", exist_ok=True)
